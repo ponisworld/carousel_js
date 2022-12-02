@@ -7,21 +7,75 @@
     font-family:  'Karla', sans-serif;
     font-size: 20px;
 }
+body {
+    max-width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left bottom, #593954, #514264, #434c70, #305577, #185e79, #07657a, #006b7a, #007178, #00787b, #007f7d, #00857e, #038c7f);
+}
 
-h1, h2, h3 {
+h1, h2 {
     font-family: 'Merriweather', serif;
+}
+h1 {
+    font-size: 2.2rem;
+    margin: 2rem;
+    color: #038C8C;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+h2 {
+    font-size: 1.5rem;
+    color: #9393B8;
 }
 
 button.fa-sharp {
-    font-size: 6vw;
+    font-size: 4rem;
     border: none;
-    background-color: #fff;
+    background: none;
+    color: #9393B8;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section#buttonsSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    width: min(800px, 80vw);
+    height: max(450px, 60vh);
+    object-fit: cover;
+}
+
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+}
+
+p {
+    width: min(400px, 50vw);
+    background-color:#038c7f ;
+    padding: 2rem;
+    color: #434343;
+    border-radius: 15px;
+    border: 2px solid #514264;
+}
 
 .none {
     display: none;
 }
+
 
 .active {
     display: inline-block;
@@ -33,4 +87,30 @@ button {
 
 button:disabled {
     cursor: not-allowed;
+    color: #434343;
+}
+
+a:link {
+    color: #9393B1;
+}
+
+a:visited {
+    color: #9393B1;
+}
+
+a:focus {
+    color: #038C8C;
+}
+
+a:hover {
+    color: #fff;
+}
+
+a:active {
+    color: #038c7f;
+}
+
+footer {
+    text-align: right;
+    margin: 2rem;
 }
