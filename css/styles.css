@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400&family=Merriweather:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Karla', sans-serif;
+    font-size: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+button.fa-sharp {
+    font-size: 6vw;
+    border: none;
+    background-color: #fff;
+}
+
+
+.none {
+    display: none;
+}
+
+.active {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
